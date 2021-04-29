@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H524" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Journal" representedClassName="JournalMO" syncable="YES" codeGenerationType="class">
+        <attribute name="painDate" attributeType="String"/>
+        <attribute name="painImage" optional="YES" attributeType="Binary"/>
+        <attribute name="painNotes" attributeType="String"/>
+        <attribute name="painPower" attributeType="String"/>
+        <attribute name="painTime" attributeType="String"/>
+        <attribute name="painType" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Journal" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>

@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F08E7422628123600D39D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E7412628123600D39D08 /* AppDelegate.swift */; };
+		4F08E7492628123600D39D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F08E7472628123600D39D08 /* Main.storyboard */; };
+		4F08E74C2628123600D39D08 /* PainJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E74A2628123600D39D08 /* PainJournal.xcdatamodeld */; };
+		4F08E7512628123900D39D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F08E74F2628123900D39D08 /* LaunchScreen.storyboard */; };
+		4F08E75B2628210300D39D08 /* NewRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E75A2628210300D39D08 /* NewRecordTableViewController.swift */; };
+		4F08E75F26282B7500D39D08 /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E75E26282B7500D39D08 /* JournalTableViewController.swift */; };
+		4F08E764262831C700D39D08 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E763262831C700D39D08 /* JournalTableViewCell.swift */; };
+		4F08E76726297C5500D39D08 /* JournalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E76626297C5500D39D08 /* JournalDetailViewController.swift */; };
+		4F08E76B2629809100D39D08 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E76A2629809100D39D08 /* Journal.swift */; };
+		4F08E77D26299DA900D39D08 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F08E77A26299DA900D39D08 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		4F08E77E26299DA900D39D08 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F08E77B26299DA900D39D08 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		4F08E77F26299DA900D39D08 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F08E77C26299DA900D39D08 /* OFL.txt */; };
+		4F08E7822629AB8F00D39D08 /* JournalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08E7812629AB8F00D39D08 /* JournalHeaderView.swift */; };
+		4F163BF0263027270013C5EC /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F163BEF263027270013C5EC /* UINavigationController.swift */; };
+		4F163BF8263032470013C5EC /* ScenceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F163BF7263032470013C5EC /* ScenceDelegate.swift */; };
+		4F163BFC263049EA0013C5EC /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F163BFB263049EA0013C5EC /* Support.swift */; };
+		4FCA8B4C262D8EFF008C311C /* JournalDetailNotesTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA8B4B262D8EFF008C311C /* JournalDetailNotesTextCell.swift */; };
+		4FD2461226398DB80031965C /* Assets.xcassets 15-33-29-747.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD2461126398DB70031965C /* Assets.xcassets 15-33-29-747.xcassets */; };
+		4FE337DA2632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE337D92632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F08E73E2628123600D39D08 /* PainJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F08E7412628123600D39D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F08E7482628123600D39D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F08E74B2628123600D39D08 /* PainJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PainJournal.xcdatamodel; sourceTree = "<group>"; };
+		4F08E7502628123900D39D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F08E7522628123900D39D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F08E75A2628210300D39D08 /* NewRecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordTableViewController.swift; sourceTree = "<group>"; };
+		4F08E75E26282B7500D39D08 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		4F08E763262831C700D39D08 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		4F08E76626297C5500D39D08 /* JournalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailViewController.swift; sourceTree = "<group>"; };
+		4F08E76A2629809100D39D08 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		4F08E77A26299DA900D39D08 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		4F08E77B26299DA900D39D08 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		4F08E77C26299DA900D39D08 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4F08E7812629AB8F00D39D08 /* JournalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHeaderView.swift; sourceTree = "<group>"; };
+		4F163BEF263027270013C5EC /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		4F163BF7263032470013C5EC /* ScenceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenceDelegate.swift; sourceTree = "<group>"; };
+		4F163BFB263049EA0013C5EC /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		4FCA8B4B262D8EFF008C311C /* JournalDetailNotesTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailNotesTextCell.swift; sourceTree = "<group>"; };
+		4FD2461126398DB70031965C /* Assets.xcassets 15-33-29-747.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 15-33-29-747.xcassets"; sourceTree = "<group>"; };
+		4FE337D92632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailSecondSectionTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F08E73B2628123600D39D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F08E7352628123600D39D08 = {
+			isa = PBXGroup;
+			children = (
+				4F08E7402628123600D39D08 /* PainJournal */,
+				4F08E73F2628123600D39D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F08E73F2628123600D39D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F08E73E2628123600D39D08 /* PainJournal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F08E7402628123600D39D08 /* PainJournal */ = {
+			isa = PBXGroup;
+			children = (
+				4F163BF22630272F0013C5EC /* Extensions */,
+				4F08E77926299D8A00D39D08 /* Font */,
+				4F08E77326298C7600D39D08 /* Models */,
+				4F08E76F26298C2700D39D08 /* Delegate */,
+				4F08E77526298C9000D39D08 /* View */,
+				4F08E77126298C5400D39D08 /* Controllers */,
+				4F08E74F2628123900D39D08 /* LaunchScreen.storyboard */,
+				4F08E7472628123600D39D08 /* Main.storyboard */,
+				4F163BFB263049EA0013C5EC /* Support.swift */,
+				4F08E7522628123900D39D08 /* Info.plist */,
+				4FD2461126398DB70031965C /* Assets.xcassets 15-33-29-747.xcassets */,
+				4F08E74A2628123600D39D08 /* PainJournal.xcdatamodeld */,
+			);
+			path = PainJournal;
+			sourceTree = "<group>";
+		};
+		4F08E76F26298C2700D39D08 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4F08E7412628123600D39D08 /* AppDelegate.swift */,
+				4F163BF7263032470013C5EC /* ScenceDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4F08E77126298C5400D39D08 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F08E75E26282B7500D39D08 /* JournalTableViewController.swift */,
+				4F08E76626297C5500D39D08 /* JournalDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F08E77326298C7600D39D08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F08E76A2629809100D39D08 /* Journal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F08E77526298C9000D39D08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F08E763262831C700D39D08 /* JournalTableViewCell.swift */,
+				4F08E7812629AB8F00D39D08 /* JournalHeaderView.swift */,
+				4F08E75A2628210300D39D08 /* NewRecordTableViewController.swift */,
+				4FE337D92632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift */,
+				4FCA8B4B262D8EFF008C311C /* JournalDetailNotesTextCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F08E77926299D8A00D39D08 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4F08E77C26299DA900D39D08 /* OFL.txt */,
+				4F08E77A26299DA900D39D08 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+				4F08E77B26299DA900D39D08 /* PlayfairDisplay-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4F163BF22630272F0013C5EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F163BEF263027270013C5EC /* UINavigationController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F08E73D2628123600D39D08 /* PainJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F08E7552628123900D39D08 /* Build configuration list for PBXNativeTarget "PainJournal" */;
+			buildPhases = (
+				4F08E73A2628123600D39D08 /* Sources */,
+				4F08E73B2628123600D39D08 /* Frameworks */,
+				4F08E73C2628123600D39D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PainJournal;
+			productName = PainJournal;
+			productReference = 4F08E73E2628123600D39D08 /* PainJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F08E7362628123600D39D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					4F08E73D2628123600D39D08 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F08E7392628123600D39D08 /* Build configuration list for PBXProject "PainJournal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F08E7352628123600D39D08;
+			productRefGroup = 4F08E73F2628123600D39D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F08E73D2628123600D39D08 /* PainJournal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F08E73C2628123600D39D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F08E77F26299DA900D39D08 /* OFL.txt in Resources */,
+				4F08E77D26299DA900D39D08 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
+				4F08E7512628123900D39D08 /* LaunchScreen.storyboard in Resources */,
+				4F08E77E26299DA900D39D08 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
+				4FD2461226398DB80031965C /* Assets.xcassets 15-33-29-747.xcassets in Resources */,
+				4F08E7492628123600D39D08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F08E73A2628123600D39D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE337DA2632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift in Sources */,
+				4F08E7422628123600D39D08 /* AppDelegate.swift in Sources */,
+				4F08E764262831C700D39D08 /* JournalTableViewCell.swift in Sources */,
+				4F163BF8263032470013C5EC /* ScenceDelegate.swift in Sources */,
+				4F08E76B2629809100D39D08 /* Journal.swift in Sources */,
+				4F08E7822629AB8F00D39D08 /* JournalHeaderView.swift in Sources */,
+				4F08E75F26282B7500D39D08 /* JournalTableViewController.swift in Sources */,
+				4F08E76726297C5500D39D08 /* JournalDetailViewController.swift in Sources */,
+				4FCA8B4C262D8EFF008C311C /* JournalDetailNotesTextCell.swift in Sources */,
+				4F163BFC263049EA0013C5EC /* Support.swift in Sources */,
+				4F163BF0263027270013C5EC /* UINavigationController.swift in Sources */,
+				4F08E74C2628123600D39D08 /* PainJournal.xcdatamodeld in Sources */,
+				4F08E75B2628210300D39D08 /* NewRecordTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F08E7472628123600D39D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F08E7482628123600D39D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F08E74F2628123900D39D08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F08E7502628123900D39D08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F08E7532628123900D39D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F08E7542628123900D39D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F08E7562628123900D39D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 893C5YUCHN;
+				INFOPLIST_FILE = PainJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BootCamp.lv.PainJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F08E7572628123900D39D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 893C5YUCHN;
+				INFOPLIST_FILE = PainJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BootCamp.lv.PainJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F08E7392628123600D39D08 /* Build configuration list for PBXProject "PainJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F08E7532628123900D39D08 /* Debug */,
+				4F08E7542628123900D39D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F08E7552628123900D39D08 /* Build configuration list for PBXNativeTarget "PainJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F08E7562628123900D39D08 /* Debug */,
+				4F08E7572628123900D39D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F08E74A2628123600D39D08 /* PainJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F08E74B2628123600D39D08 /* PainJournal.xcdatamodel */,
+			);
+			currentVersion = 4F08E74B2628123600D39D08 /* PainJournal.xcdatamodel */;
+			path = PainJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F08E7362628123600D39D08 /* Project object */;
+}
