@@ -17,10 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Customization of the back button
+        
         let backButtonImage = UIImage(named: "back")
         UINavigationBar.appearance().backIndicatorImage = backButtonImage
         UINavigationBar.appearance().backIndicatorTransitionMaskImage = backButtonImage
         
+
         
         return true
     }

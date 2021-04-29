@@ -12,7 +12,8 @@ class NewRecordTableViewController: UITableViewController, UITextFieldDelegate, 
     
     var records: JournalMO!
     var coreData = CoreData()
-    
+    let formatter = DateFormatter()
+
     
     @IBOutlet weak var dateTextField: UITextField! {
         
@@ -150,21 +151,29 @@ class NewRecordTableViewController: UITableViewController, UITextFieldDelegate, 
         self.view.addGestureRecognizer(tapGesture)
         
         //Configure Navigation Bar Appereance
-        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.tintColor = UIColor.white
         navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Palatino", size: 22)!]
         
+        //Date Picker Setup
         
-        datePicker = UIDatePicker()
-        datePicker?.datePickerMode = .date
+        let date = Date()
+        formatter.dateFormat = "dd/MM/yyyy"
+        dateTextField.text = formatter.string(from: date)
         
+        
+        let datePicker = UIDatePicker()
+        datePicker.datePickerMode = .date
+        datePicker.preferredDatePickerStyle = .wheels
+        datePicker.addTarget(self, action: #selector(datePickerValueChange(sender:)), for: UIControl.Event.valueChanged)
+        datePicker.frame.size = CGSize(width: 0, height: 250)
         dateTextField.inputView = datePicker
-        datePicker?.preferredDatePickerStyle = .wheels
-        datePicker?.frame.size = CGSize(width: 0, height: 250)
-        datePicker?.addTarget(self, action: #selector(datePickerValueChange(sender:)), for: UIControl.Event.valueChanged)
+
+        
+        
+        //Time Picker Setup
         
         let time = Date()
-        let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_gb")
         formatter.dateFormat = "HH:mm"
         timeTextField.text = formatter.string(from: time)
@@ -196,6 +205,8 @@ class NewRecordTableViewController: UITableViewController, UITextFieldDelegate, 
     
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
 
+        
+        
         let currentText:String = notesTextView.text
         let updatedText = (currentText as NSString).replacingCharacters(in: range, with: text)
         
@@ -220,6 +231,8 @@ class NewRecordTableViewController: UITableViewController, UITextFieldDelegate, 
 
         return false
     }
+    
+    
     
     func textViewDidChangeSelection(_ textView: UITextView) {
         if self.view.window != nil {
@@ -311,6 +324,12 @@ class NewRecordTableViewController: UITableViewController, UITextFieldDelegate, 
         
     }
     
-
+    private func textLimit(existingText: String?,
+                           newText: String,
+                           limit: Int) -> Bool {
+        let text = existingText ?? ""
+        let isAtLimit = text.count + newText.count <= limit
+        return isAtLimit
+    }
 
 }

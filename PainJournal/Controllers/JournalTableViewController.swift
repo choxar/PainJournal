@@ -76,11 +76,14 @@ class JournalTableViewController: UITableViewController, NSFetchedResultsControl
     var searchResults: [JournalMO] = []
     
     var coreData = CoreData()
-
+        
     // MARK:- View controller life cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.backgroundView = UIImageView(image: UIImage(named: "iPhone 8 Plus - 1"))
+
         
    // Search bar methods
         
@@ -140,11 +143,19 @@ class JournalTableViewController: UITableViewController, NSFetchedResultsControl
   
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         
-        navigationController?.hidesBarsOnSwipe = true
-        
-        
+//        self.clearsSelectionOnViewWillAppear = ((self.splitViewController?.isCollapsed) != nil)
+//
+//        super.viewWillAppear(animated)
+//
+//        navigationController?.hidesBarsOnSwipe = true
+//
+//        let backgroundImage = UIImage(named: "iPhone 8 Plus - 1")
+//        let imageView = UIImageView(image: backgroundImage)
+//        self.tableView.backgroundView = imageView
+//
+//        tableView.tableFooterView = UIView(frame: CGRect.zero)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -186,10 +197,17 @@ class JournalTableViewController: UITableViewController, NSFetchedResultsControl
         
     }
 
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        cell.backgroundColor = .clear
+
+        
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! JournalTableViewCell
+        
         
         let record = (searchController.isActive) ? searchResults[indexPath.row] : pains[indexPath.row]
         

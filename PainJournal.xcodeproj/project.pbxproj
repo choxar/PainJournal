@@ -23,8 +23,9 @@
 		4F163BF0263027270013C5EC /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F163BEF263027270013C5EC /* UINavigationController.swift */; };
 		4F163BF8263032470013C5EC /* ScenceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F163BF7263032470013C5EC /* ScenceDelegate.swift */; };
 		4F163BFC263049EA0013C5EC /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F163BFB263049EA0013C5EC /* Support.swift */; };
+		4F563FAC263AC6FC008A0F9A /* JournalAppereanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F563FAB263AC6FC008A0F9A /* JournalAppereanceViewController.swift */; };
+		4F563FB0263AD3B6008A0F9A /* Assets.xcassets 15-33-29-747.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F563FAF263AD3B6008A0F9A /* Assets.xcassets 15-33-29-747.xcassets */; };
 		4FCA8B4C262D8EFF008C311C /* JournalDetailNotesTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA8B4B262D8EFF008C311C /* JournalDetailNotesTextCell.swift */; };
-		4FD2461226398DB80031965C /* Assets.xcassets 15-33-29-747.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD2461126398DB70031965C /* Assets.xcassets 15-33-29-747.xcassets */; };
 		4FE337DA2632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE337D92632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +48,9 @@
 		4F163BEF263027270013C5EC /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		4F163BF7263032470013C5EC /* ScenceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenceDelegate.swift; sourceTree = "<group>"; };
 		4F163BFB263049EA0013C5EC /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		4F563FAB263AC6FC008A0F9A /* JournalAppereanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppereanceViewController.swift; sourceTree = "<group>"; };
+		4F563FAF263AD3B6008A0F9A /* Assets.xcassets 15-33-29-747.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 15-33-29-747.xcassets"; sourceTree = "<group>"; };
 		4FCA8B4B262D8EFF008C311C /* JournalDetailNotesTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailNotesTextCell.swift; sourceTree = "<group>"; };
-		4FD2461126398DB70031965C /* Assets.xcassets 15-33-29-747.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 15-33-29-747.xcassets"; sourceTree = "<group>"; };
 		4FE337D92632CE10004B20F8 /* JournalDetailSecondSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailSecondSectionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,8 +94,8 @@
 				4F08E7472628123600D39D08 /* Main.storyboard */,
 				4F163BFB263049EA0013C5EC /* Support.swift */,
 				4F08E7522628123900D39D08 /* Info.plist */,
-				4FD2461126398DB70031965C /* Assets.xcassets 15-33-29-747.xcassets */,
 				4F08E74A2628123600D39D08 /* PainJournal.xcdatamodeld */,
+				4F563FAF263AD3B6008A0F9A /* Assets.xcassets 15-33-29-747.xcassets */,
 			);
 			path = PainJournal;
 			sourceTree = "<group>";
@@ -112,6 +114,7 @@
 			children = (
 				4F08E75E26282B7500D39D08 /* JournalTableViewController.swift */,
 				4F08E76626297C5500D39D08 /* JournalDetailViewController.swift */,
+				4F563FAB263AC6FC008A0F9A /* JournalAppereanceViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -215,7 +218,7 @@
 				4F08E77D26299DA900D39D08 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
 				4F08E7512628123900D39D08 /* LaunchScreen.storyboard in Resources */,
 				4F08E77E26299DA900D39D08 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
-				4FD2461226398DB80031965C /* Assets.xcassets 15-33-29-747.xcassets in Resources */,
+				4F563FB0263AD3B6008A0F9A /* Assets.xcassets 15-33-29-747.xcassets in Resources */,
 				4F08E7492628123600D39D08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +240,7 @@
 				4F08E76726297C5500D39D08 /* JournalDetailViewController.swift in Sources */,
 				4FCA8B4C262D8EFF008C311C /* JournalDetailNotesTextCell.swift in Sources */,
 				4F163BFC263049EA0013C5EC /* Support.swift in Sources */,
+				4F563FAC263AC6FC008A0F9A /* JournalAppereanceViewController.swift in Sources */,
 				4F163BF0263027270013C5EC /* UINavigationController.swift in Sources */,
 				4F08E74C2628123600D39D08 /* PainJournal.xcdatamodeld in Sources */,
 				4F08E75B2628210300D39D08 /* NewRecordTableViewController.swift in Sources */,

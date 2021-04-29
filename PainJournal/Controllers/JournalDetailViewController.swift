@@ -24,6 +24,7 @@ class JournalDetailViewController: UIViewController, UITableViewDelegate, UITabl
         
         //Customization of the nav bar
         
+        
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
         
